@@ -1,0 +1,72 @@
+[
+  {
+    "model": "XGBoost V3 Model Only",
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1378,
+    "fp": 1,
+    "fn": 36,
+    "tp": 84,
+    "accuracy": 0.9753168779186124,
+    "precision": 0.9882352941176471,
+    "recall": 0.7,
+    "f1_score": 0.8195121951219512,
+    "false_alarm_rate": 0.0007251631617113851
+  },
+  {
+    "model": "CloudPulse V3 Hybrid",
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1378,
+    "fp": 1,
+    "fn": 8,
+    "tp": 112,
+    "accuracy": 0.9939959973315544,
+    "precision": 0.9911504424778761,
+    "recall": 0.9333333333333333,
+    "f1_score": 0.9613733905579399,
+    "false_alarm_rate": 0.0007251631617113851
+  },
+  {
+    "model": "LSTM",
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1365,
+    "fp": 14,
+    "fn": 3,
+    "tp": 117,
+    "accuracy": 0.9886591060707138,
+    "precision": 0.8931297709923665,
+    "recall": 0.975,
+    "f1_score": 0.9322709163346613,
+    "false_alarm_rate": 0.01015228426395939
+  },
+  {
+    "model": "GRU",
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1362,
+    "fp": 17,
+    "fn": 5,
+    "tp": 115,
+    "accuracy": 0.9853235490326885,
+    "precision": 0.8712121212121212,
+    "recall": 0.9583333333333334,
+    "f1_score": 0.9126984126984127,
+    "false_alarm_rate": 0.012327773749093546
+  },
+  {
+    "model": "ARIMA Network Detector V1",
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1366,
+    "fp": 13,
+    "fn": 102,
+    "tp": 18,
+    "accuracy": 0.923282188125417,
+    "precision": 0.5806451612903226,
+    "recall": 0.15,
+    "f1_score": 0.23841059602649006,
+    "false_alarm_rate": 0.009427121102248005
+  }
+]

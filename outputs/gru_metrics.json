@@ -1,0 +1,24 @@
+{
+  "model": "GRU",
+  "test_observations": 1500,
+  "actual_anomalies": 120,
+  "threshold": 1.30199668884313,
+  "true_negatives": 1363,
+  "false_positives": 17,
+  "false_negatives": 5,
+  "true_positives": 115,
+  "precision": 0.8712121212121212,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9126984126984127,
+  "confusion_matrix": [
+    [
+      1363,
+      17
+    ],
+    [
+      5,
+      115
+    ]
+  ],
+  "false_alarm_rate": 0.012318840579710146
+}

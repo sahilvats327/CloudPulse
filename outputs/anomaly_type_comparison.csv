@@ -1,0 +1,21 @@
+model,category,observations,actual_anomalies,detected_anomalies,missed_anomalies,false_alarms,detection_rate_percent,false_alarm_percent
+LSTM,cpu_spike,20,20,20,0,0,100.0,
+LSTM,memory_drift,50,50,47,3,0,94.0,
+LSTM,network_drop,30,30,30,0,0,100.0,
+LSTM,combined,20,20,20,0,0,100.0,
+LSTM,normal,1379,0,0,0,14,,1.015
+GRU,cpu_spike,20,20,20,0,0,100.0,
+GRU,memory_drift,50,50,45,5,0,90.0,
+GRU,network_drop,30,30,30,0,0,100.0,
+GRU,combined,20,20,20,0,0,100.0,
+GRU,normal,1379,0,0,0,17,,1.233
+XGBoost V3 Model Only,cpu_spike,20,20,19,1,0,95.0,
+XGBoost V3 Model Only,memory_drift,50,50,45,5,0,90.0,
+XGBoost V3 Model Only,network_drop,30,30,2,28,0,6.67,
+XGBoost V3 Model Only,combined,20,20,18,2,0,90.0,
+XGBoost V3 Model Only,normal,1379,0,0,0,1,,0.073
+CloudPulse V3 Hybrid,cpu_spike,20,20,19,1,0,95.0,
+CloudPulse V3 Hybrid,memory_drift,50,50,45,5,0,90.0,
+CloudPulse V3 Hybrid,network_drop,30,30,30,0,0,100.0,
+CloudPulse V3 Hybrid,combined,20,20,18,2,0,90.0,
+CloudPulse V3 Hybrid,normal,1379,0,0,0,1,,0.073

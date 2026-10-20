@@ -1,0 +1,6 @@
+anomaly_type,test_rows,actual_anomalies,xgboost_detected,hybrid_detected
+combined,20,20,18,18
+cpu_spike,20,20,19,19
+memory_drift,50,50,45,45
+network_drop,30,30,2,30
+normal,1379,0,1,1

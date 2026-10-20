@@ -1,0 +1,24 @@
+{
+  "model": "LSTM",
+  "test_observations": 1500,
+  "actual_anomalies": 120,
+  "threshold": 1.301312409804603,
+  "true_negatives": 1366,
+  "false_positives": 14,
+  "false_negatives": 3,
+  "true_positives": 117,
+  "precision": 0.8931297709923665,
+  "recall": 0.975,
+  "f1_score": 0.9322709163346613,
+  "confusion_matrix": [
+    [
+      1366,
+      14
+    ],
+    [
+      3,
+      117
+    ]
+  ],
+  "false_alarm_rate": 0.010144927536231883
+}

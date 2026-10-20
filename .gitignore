@@ -1,0 +1,58 @@
+# Python environments
+.venv/
+.venv312/
+venv/
+env/
+
+# Python cache and test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Temporary source backups
+app_before*.py
+*_backup.py
+*.bak
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Intermediate generated predictions and experiments
+outputs/*predictions*.csv
+outputs/*stress_test*.csv
+outputs/context_network_test_predictions.csv
+outputs/*before_arima.*
+outputs/threshold_tuning_results.csv
+outputs/threshold_tuning_summary.json
+
+# Keep the final comparison used by the dashboard
+!outputs/fair_model_comparison.csv
+!outputs/fair_model_predictions.csv
+
+# Keep final evaluation reports and useful charts
+!outputs/cloudpulse_model_evaluation_report.md
+!outputs/CloudPulse_Model_Evaluation_Report_v2.docx
+!outputs/model_comparison.png
+!outputs/model_comparison_all_models.png
+
+# Keep the trained model artifacts and configurations in models/
+# (No blanket ignore rule for models/)
+
+# Ignore the accidental empty file named "python"
+python
+imports_list.txt
+requirements_full.txt

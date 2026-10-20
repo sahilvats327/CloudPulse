@@ -1,0 +1,15 @@
+{
+  "model": "ARIMA",
+  "order": [
+    2,
+    1,
+    2
+  ],
+  "train_rows": 7000,
+  "validation_rows": 1500,
+  "test_rows": 1500,
+  "threshold": 53.29376995229288,
+  "max_validation_false_alarm_rate": 0.02,
+  "forecast_mode": "one-step-ahead; fixed training parameters; observed history updated",
+  "warning": "Synthetic dataset experiment. Forecast errors may detect multiple causes of traffic change and are not proof of a network attack."
+}

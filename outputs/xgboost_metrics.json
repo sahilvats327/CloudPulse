@@ -1,0 +1,16 @@
+{
+    "model": "XGBoost",
+    "threshold": 0.34,
+    "test_rows": 1499,
+    "actual_anomalies": 120,
+    "tn": 1377,
+    "fp": 2,
+    "fn": 33,
+    "tp": 87,
+    "accuracy": 0.9766511007338226,
+    "precision": 0.9775280898876404,
+    "recall": 0.725,
+    "f1_score": 0.8325358851674641,
+    "false_alarm_rate": 0.0014503263234227702,
+    "roc_auc": 0.9971476915639352
+}

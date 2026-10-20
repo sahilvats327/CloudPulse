@@ -1,0 +1,16 @@
+{
+  "features": [
+    "cpu_percent",
+    "memory_percent",
+    "network_mbps"
+  ],
+  "window_size": 12,
+  "threshold": 1.30199668884313,
+  "train_end": 7000,
+  "validation_end": 8500,
+  "threshold_tuning": {
+    "method": "validation F1 with false-alarm rate <= 2%",
+    "selected_threshold": 1.30199668884313,
+    "test_data_used_for_selection": false
+  }
+}
